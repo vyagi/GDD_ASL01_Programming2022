@@ -2,7 +2,7 @@
 
 namespace ObjectOrientedProgrammingFundamentals
 {
-    class Student
+    public class Student
     {
         private string _name;
         private DateTime _dateOfBirth;
