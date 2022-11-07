@@ -1,41 +1,38 @@
 ﻿using System;
 
-namespace ObjectOrientedProgrammingFundamentals
+namespace DomainLogic
 {
     public class Student
     {
         private string _name;
+
         private DateTime _dateOfBirth;
 
-        public Student(string fullName, DateTime dateOfBirth)
+        public Student(string name, DateTime dateOfBirth)
         {
-            if (string.IsNullOrWhiteSpace(fullName))
-                throw new ArgumentNullException(nameof(fullName), "Name should be valid");
-                        
-            _name = fullName;
+            if (string.IsNullOrWhiteSpace(name))
+                throw new ArgumentNullException(nameof(name),
+                        "The name should not be empty");
+            _name = name;
 
-            if (true) //some checks for birthdate - your homework
-            {
-
-            }
+            //TODO: Homework - add the proper check for dateOfBirth
             _dateOfBirth = dateOfBirth;
         }
 
-        //public int GetAge()  // Don't do it, it's not the Java world
-        //{
-        //    return _age;
-        //}
+        public string Name
+        {
+            get => _name;
 
-        //public void SetAge(int newAge)
-        //{
-        //    if (newAge < 1 || newAge > 100)
-        //        throw new ArgumentOutOfRangeException(nameof(newAge), "Age shoud be from 1 to 100");
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentNullException(nameof(value),
+                            "The name should not be empty");
 
-        //    _age = newAge;
-        //}
+                _name = value;
+            }
+        }
 
         public int Age => DateTime.Now.Year - _dateOfBirth.Year;
-
-        //As a homework, provide the properties for name
     }
 }
