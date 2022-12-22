@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceApplication", "Invoi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqIntroduction", "LinqIntroduction\LinqIntroduction.csproj", "{C0B26BDE-C1C9-442A-AE90-CF989A376F48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgramingContinuation", "ObjectOrientedProgramingContinuation\ObjectOrientedProgramingContinuation.csproj", "{1B1A72E9-395D-4786-8038-133663F7264B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectOrientedProgramingContinuation", "ObjectOrientedProgramingContinuation\ObjectOrientedProgramingContinuation.csproj", "{1B1A72E9-395D-4786-8038-133663F7264B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPractice", "ExamPractice\ExamPractice.csproj", "{C88215D0-E3B2-4F84-A04C-1521F747FF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamPractice", "ExamPractice\ExamPractice.csproj", "{C88215D0-E3B2-4F84-A04C-1521F747FF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseAccess", "DatabaseAccess\DatabaseAccess.csproj", "{4E42167E-E1FA-46B3-86AC-8973B1DE9DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseAccessUsingEntityFramework", "DatabaseAccessUsingEntityFramework\DatabaseAccessUsingEntityFramework.csproj", "{03C06B25-6C9B-47BC-A3EC-7A86B3EF857B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{C88215D0-E3B2-4F84-A04C-1521F747FF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C88215D0-E3B2-4F84-A04C-1521F747FF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C88215D0-E3B2-4F84-A04C-1521F747FF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E42167E-E1FA-46B3-86AC-8973B1DE9DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E42167E-E1FA-46B3-86AC-8973B1DE9DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E42167E-E1FA-46B3-86AC-8973B1DE9DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E42167E-E1FA-46B3-86AC-8973B1DE9DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C06B25-6C9B-47BC-A3EC-7A86B3EF857B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C06B25-6C9B-47BC-A3EC-7A86B3EF857B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C06B25-6C9B-47BC-A3EC-7A86B3EF857B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C06B25-6C9B-47BC-A3EC-7A86B3EF857B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
